@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111111;
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+h1 {
+    color: #77ec0a;
+    margin-bottom: 20px;
+}
+
+
+input[type="number"] {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #77ec0a;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #111111;
+    background-color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #77ec0a;
+    color: #111111;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #66d509;
+}
+
+
+.checkboxes label {
+    font-size: 1em;
+    color: #77ec0a;
+    display: block;
+    margin: 5px 0;
+}
+
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
